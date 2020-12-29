@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NeighborhoodHelpers.UserMicroservice.DataAccessProvider\NeighborhoodHelpers.UserMicroservice.DataAccessProvider.csproj" />
+    <ProjectReference Include="..\NeighborhoodHelpers.UserMicroservice.Entities\NeighborhoodHelpers.UserMicroservice.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

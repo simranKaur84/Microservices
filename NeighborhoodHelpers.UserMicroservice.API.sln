@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborhoodHelpers.UserMicroservice.API", "NeighborhoodHelpers.UserMicroservice.API\NeighborhoodHelpers.UserMicroservice.API.csproj", "{2571863A-B342-40E9-887B-A9E6178FFE21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.API", "1.API", "{0F8A843A-98AC-4705-AFD5-13C63584D1D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Services", "2.Services", "{0A60EDCD-5941-4BCA-A8EF-1A590608BE1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataAccessProvider", "3.DataAccessProvider", "{9B490B21-61F0-4355-A0C5-25ADC1F25654}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Entities", "4.Entities", "{1A596B33-1C14-4BC5-9F4B-E7FC582D79A8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborhoodHelpers.UserMicroservice.Services", "NeighborhoodHelpers.UserMicroservice.Services\NeighborhoodHelpers.UserMicroservice.Services.csproj", "{841CCFE9-B5FC-4B17-8BB6-6D08F5145A9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborhoodHelpers.UserMicroservice.DataAccessProvider", "NeighborhoodHelpers.UserMicroservice.DataAccessProvider\NeighborhoodHelpers.UserMicroservice.DataAccessProvider.csproj", "{7CAAB870-A531-47E7-83B9-C4B090F2AB42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborhoodHelpers.UserMicroservice.Entities", "NeighborhoodHelpers.UserMicroservice.Entities\NeighborhoodHelpers.UserMicroservice.Entities.csproj", "{0E7B18CA-9977-4204-B49A-86B89ACB2D57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.APIGateway", "1.APIGateway", "{AB8E6467-CD19-4B20-A07D-2876B170A80B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NeighborhoodHelpers.UserMicroservice.OcelotAPIGateway", "NeighborhoodHelpers.UserMicroservice.OcelotAPIGateway\NeighborhoodHelpers.UserMicroservice.OcelotAPIGateway.csproj", "{42338A50-AC7B-4FE1-9DCA-AE62FAC828C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Microservices", "2.Microservices", "{21AC75A7-C5D2-44BF-90A1-31CA63D65424}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserMicroservice", "UserMicroservice", "{98956823-04AE-4066-9094-7B0796926AA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2571863A-B342-40E9-887B-A9E6178FFE21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2571863A-B342-40E9-887B-A9E6178FFE21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2571863A-B342-40E9-887B-A9E6178FFE21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2571863A-B342-40E9-887B-A9E6178FFE21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{841CCFE9-B5FC-4B17-8BB6-6D08F5145A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{841CCFE9-B5FC-4B17-8BB6-6D08F5145A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{841CCFE9-B5FC-4B17-8BB6-6D08F5145A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{841CCFE9-B5FC-4B17-8BB6-6D08F5145A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CAAB870-A531-47E7-83B9-C4B090F2AB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CAAB870-A531-47E7-83B9-C4B090F2AB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CAAB870-A531-47E7-83B9-C4B090F2AB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CAAB870-A531-47E7-83B9-C4B090F2AB42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E7B18CA-9977-4204-B49A-86B89ACB2D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E7B18CA-9977-4204-B49A-86B89ACB2D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E7B18CA-9977-4204-B49A-86B89ACB2D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E7B18CA-9977-4204-B49A-86B89ACB2D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42338A50-AC7B-4FE1-9DCA-AE62FAC828C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42338A50-AC7B-4FE1-9DCA-AE62FAC828C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42338A50-AC7B-4FE1-9DCA-AE62FAC828C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42338A50-AC7B-4FE1-9DCA-AE62FAC828C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2571863A-B342-40E9-887B-A9E6178FFE21} = {0F8A843A-98AC-4705-AFD5-13C63584D1D9}
+		{0F8A843A-98AC-4705-AFD5-13C63584D1D9} = {98956823-04AE-4066-9094-7B0796926AA8}
+		{0A60EDCD-5941-4BCA-A8EF-1A590608BE1B} = {98956823-04AE-4066-9094-7B0796926AA8}
+		{9B490B21-61F0-4355-A0C5-25ADC1F25654} = {98956823-04AE-4066-9094-7B0796926AA8}
+		{1A596B33-1C14-4BC5-9F4B-E7FC582D79A8} = {98956823-04AE-4066-9094-7B0796926AA8}
+		{841CCFE9-B5FC-4B17-8BB6-6D08F5145A9C} = {0A60EDCD-5941-4BCA-A8EF-1A590608BE1B}
+		{7CAAB870-A531-47E7-83B9-C4B090F2AB42} = {9B490B21-61F0-4355-A0C5-25ADC1F25654}
+		{0E7B18CA-9977-4204-B49A-86B89ACB2D57} = {1A596B33-1C14-4BC5-9F4B-E7FC582D79A8}
+		{42338A50-AC7B-4FE1-9DCA-AE62FAC828C4} = {AB8E6467-CD19-4B20-A07D-2876B170A80B}
+		{98956823-04AE-4066-9094-7B0796926AA8} = {21AC75A7-C5D2-44BF-90A1-31CA63D65424}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A317972A-5598-4E88-8F0F-BC1CEB8CC3EE}
+	EndGlobalSection
+EndGlobal
